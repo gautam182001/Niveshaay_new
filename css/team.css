@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.our-team-section {
+    padding: 2.5rem 0;
+    padding-bottom: 6rem;
+}
+
+.our-team-section .team-inner-wrapper {
+    margin: 0 -1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper {
+    padding: 1.5rem;
+    flex: 0 0 25%;
+    max-width: 25%;
+    justify-content: center;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner {
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-photo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% - 100px);
+    bottom: 0;
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%); */
+    transition: all 0.3s linear;
+}
+
+/* .our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner:hover .member-photo::after { top: 0; background-color: rgba(0, 0, 0, 0.7); } */
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-photo img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-photo {
+    height: 39rem;
+    cursor: pointer;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail {
+    padding: 2rem;
+    position: absolute;
+    transition: all 0.3s linear;
+    /* top: calc(100% - 75px); */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+
+    padding-bottom: 1.5rem;
+}
+
+/* .our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner:hover .member-detail { opacity: 1; visibility: visible; top: 0; overflow: auto;} */
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail .social-icons-wrap {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail .social-icons-wrap li {
+    padding-left: 2rem;
+}
+
+
+
+.our-team-section .social-icons-wrap .social-icons-listing {
+    margin-bottom: 0;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail .social-icons-wrap li .social-icon:hover {
+    background-color: transparent;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail .social-icons-wrap li .social-icon .fab {
+    font-size: 2.1rem;
+    color: var(--white);
+    transition: all 0.5s;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail .social-icons-wrap li .social-icon .fab:hover {
+    transition: all 0.5s;
+    color: var(--primary);
+}
+
+
+/* .our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail .social-icons-wrap li .social-icon:hover .fab {
+    color: var(--white);
+} */
+
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail h3 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail span {
+    color: var(--white);
+    display: block;
+    font-size: 1.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 7rem !important;
+}
+
+.our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: var(--white2);
+    font-weight: 400;
+}
+
+.our-team-section h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--heading-text);
+    display: inline-block;
+    margin-bottom: 1.2rem;
+}
+
+.our-team-section .team-outer-wrap {
+    margin-bottom: 7rem;
+}
+
+.our-team-section .team-outer-wrap:last-child {
+    margin-bottom: 0;
+}
+
+
+.social-icons-wrap .social-icons-listing {
+    display: flex;
+    margin: 0;
+    margin-bottom: 1rem;
+
+}
+
+.social-icons-wrap .social-icons-listing li {
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 0;
+    line-height: normal;
+}
+
+.our-team-section .team-slider-wrapper .team-member-wrapper .team-member-inner .member-detail .social-icons-wrap li .social-icon {
+    border: 0;
+    border-radius: 0;
+    height: 2rem;
+}
+
+@media (max-width:1199px) {
+    .our-team-section .team-inner-wrapper .team-member-wrapper {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width:1024px) {
+    .our-team-section.niveshaay-section-paddding {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width:991px) {
+    .our-team-section .team-inner-wrapper .team-member-wrapper {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .our-team-section .team-outer-wrap {
+        margin-bottom: 5rem;
+    }
+
+    .inner-page::after {
+        height: 250px;
+        width: 200px;
+    }
+}
+
+@media (max-width:767px) {
+    .our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail h3 {
+        font-size: 1.8rem;
+    }
+
+    .our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-detail {
+        padding: 1.5rem;
+    }
+
+    .our-team-section .team-inner-wrapper {
+        margin: 0 -1rem;
+    }
+
+    .our-team-section .team-inner-wrapper .team-member-wrapper {
+        padding: 1rem;
+    }
+
+    .our-team-section .team-outer-wrap {
+        margin-bottom: 3rem;
+    }
+
+    .our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-photo {
+        height: 36rem;
+    }
+
+    .inner-page::after {
+        height: 200px;
+        width: 150px;
+    }
+
+}
+
+@media(max-width:575px) {
+    .our-team-section .team-inner-wrapper .team-member-wrapper {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .our-team-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .our-team-section {
+        padding: 1.5rem 0;
+        padding-bottom: 6rem;
+    }
+
+    .inner-page::after {
+        height: 180px;
+        width: 130px;
+    }
+}
