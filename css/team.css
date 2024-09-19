@@ -46,7 +46,7 @@
 }
 
 .our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-photo {
-    height: 39rem;
+    height: 30rem;
     cursor: pointer;
 }
 
@@ -213,7 +213,7 @@
     }
 
     .our-team-section .team-inner-wrapper .team-member-wrapper .team-member-inner .member-photo {
-        height: 36rem;
+        height: 27rem;
     }
 
     .inner-page::after {
