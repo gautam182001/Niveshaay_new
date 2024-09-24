@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    max-width: 132rem;
+    max-width: 134rem;
     margin: 0 auto;
     padding: 0 5rem;
 }
@@ -35,6 +35,11 @@ h2 {
     line-height: 1.36;
 }
 
+h3 {
+    font-size: 2.4rem;
+    line-height: 1.36;
+}
+
 .primary-btn {
     display: inline-block;
     height: 4.7rem;
@@ -51,6 +56,9 @@ h2 {
     background-color: var(--dark-green);
 }
 
+main{
+    padding-top: 82px;
+}
 /* swiper css */
 .swiper-button-next:after,
 .swiper-button-prev:after {
@@ -115,14 +123,48 @@ h2 {
 /* page title */
 .page-title {
     padding-top: 3.5rem;
+    margin-bottom: 2.6rem;
 }
 
 .page-title h1 {
     font-size: 4.6rem;
     font-weight: 600;
+    color: var(--heading-text);
 }
 
+.section-title {
+    margin-bottom: 1.4rem;
+}
 
+.section-title h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--heading-text);
+}
+
+/* list-wrap */
+.list-wrap {
+    margin-bottom: 1.6rem;
+}
+
+.list-wrap li {
+    position: relative;
+    padding-left: 3.2rem;
+        font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.list-wrap li::after {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    content: "";
+    height: 1.2rem;
+    width: 1.2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/list-icon.svg);
+}
 
 /* inner-page */
 .inner-page {
@@ -135,8 +177,8 @@ h2 {
     top: 0;
     right: 0;
     background-image: url(../images/top_bg_img.png);
-    height: 453px;
-    width: 381px;
+    height: 45.3rem;
+    width: 38.1rem;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
@@ -161,6 +203,10 @@ h2 {
     h2 {
         font-size: 3.2rem;
     }
+    h3{
+        font-size: 2rem;
+    }
+   
 }
 
 @media(max-width:991px) {
@@ -177,6 +223,14 @@ h2 {
         font-weight: 600;
     }
 
+    .inner-page::after {
+        height: 25rem;
+        width: 20rem;
+    }
+
+    .page-title h1 {
+        font-size: 3.5rem;
+    }
 }
 
 @media(max-width:767px) {
@@ -187,7 +241,9 @@ h2 {
     h2 {
         font-size: 2.6rem;
     }
-
+    h3{
+        font-size: 1.8rem;
+    }
     .primary-btn {
         height: 4.2rem;
         line-height: 4.2rem;
@@ -202,6 +258,30 @@ h2 {
         font-size: 3.2rem;
         font-weight: 600;
     }
+
+    .inner-page::after {
+        height: 20rem;
+        width: 15rem;
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .page-title {
+        margin-bottom: 2rem;
+    }
+
+    .page-title h1 {
+        font-size: 3.2rem;
+    }
+    .list-wrap li {
+        padding-left: 2rem;
+    }
+    
+    .list-wrap li::after {
+        left: 0;
+    }
 }
 
 @media(max-width:576px) {
@@ -212,5 +292,20 @@ h2 {
     .swiper-title-wrapper .swiper-navigation {
         margin-left: auto;
         flex-shrink: 0;
+    }
+
+
+    .inner-page::after {
+        height: 18rem;
+        width: 13rem;
+    }
+
+    .page-title h1 {
+        font-size: 2.8rem;
+    }
+}
+@media (max-width:375px) {
+    .section-title h2{
+        font-size: 1.8rem;
     }
 }

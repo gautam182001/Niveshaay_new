@@ -98,7 +98,7 @@
 .niveshay-banner-section .feature-swiper-wrapper .swiper-wrapper .image-block img {
 	width: auto;
 	height: auto;
-	max-height: 40px;
+	max-height: 4rem;
 }
 
 /* why niveshay */
@@ -189,7 +189,7 @@
 	justify-content: center;
 	align-items: center;
 	height: 100%;
-	padding: 15px 0;
+	padding: 1.5rem 0;
 
 }
 
@@ -274,7 +274,7 @@
 	display: none;
 	background-color: var(--white);
 	border-radius: 2rem;
-	padding:  3rem;
+	padding: 3rem;
 	padding-top: 2.5rem;
 	position: relative;
 }
@@ -430,7 +430,8 @@
 	margin-top: 1.5rem;
 	text-align: center;
 }
-.research-section .research-list .icon-wrapper img{
+
+.research-section .research-list .icon-wrapper img {
 	max-width: 15rem;
 }
 
@@ -870,26 +871,29 @@
 	color: var(--primary);
 }
 
- .img-outer-wrapper {
-    position: fixed;
-    right: 50px;
-    bottom: 70px;
-    z-index: 2;
+.img-outer-wrapper {
+	position: fixed;
+	right: 5rem;
+	bottom: 7rem;
+	z-index: 2;
 }
+
 .img-outer-wrapper .img-wrapper {
-    height: 64px;
-    width: 64px;
-    border-radius: 50%;
-    background-color: var(--primary);
-    box-shadow: 0px 4px 20px 7px rgba(131, 182, 69, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	height: 6.4rem;
+	width: 6.4rem;
+	border-radius: 50%;
+	background-color: var(--primary);
+	box-shadow: 0px 4px 20px 7px rgba(131, 182, 69, 0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.img-outer-wrapper .img-wrapper img{
-	height: 30px;
-	width: 30px;
+
+.img-outer-wrapper .img-wrapper img {
+	height: 3rem;
+	width: 3rem;
 }
+
 @media(min-width:1700px) {
 	.niveshay-banner-section::after {
 		width: 45%;
@@ -1097,7 +1101,8 @@
 	.featured-section {
 		padding: 6rem 0;
 	}
-	.tab-content-inner .green-chip-wrapper{
+
+	.tab-content-inner .green-chip-wrapper {
 		top: 2rem;
 		right: 2rem;
 	}
@@ -1253,7 +1258,7 @@
 	}
 
 	.niveshay-banner-section .feature-swiper-wrapper .swiper-wrapper .image-block img {
-		max-height: 25px;
+		max-height: 2.5rem;
 	}
 
 	.niveshay-banner-section .image-content-wrapper .content-wrapper {
@@ -1290,7 +1295,8 @@
 	.niveshay-banner-section::after {
 		display: none;
 	}
-	.niveshay-banner-section .feature-swiper-wrapper{
+
+	.niveshay-banner-section .feature-swiper-wrapper {
 		display: none;
 	}
 
@@ -1306,10 +1312,6 @@
 		height: auto;
 		display: block;
 		margin: 0 auto;
-	}
-
-	.tab-heading-block li .nav-title em {
-		/* display: none; */
 	}
 
 	.client-review-section .reviewer-block {
@@ -1331,7 +1333,8 @@
 	.featured-section {
 		padding: 4rem 0;
 	}
-	.why-niveshay-section .image-grid-wrapper .image-grid-row .image-grid-col{
+
+	.why-niveshay-section .image-grid-wrapper .image-grid-row .image-grid-col {
 		min-height: auto;
 	}
 }
@@ -1372,11 +1375,6 @@
 	.research-section .research-list .research .research-inner p>span {
 		display: inline-block;
 	}
-	/* .why-niveshay-section .image-grid-wrapper .image-grid-row .image-grid-col{
-		flex: 0 0 100%;
-		max-width: 100%;
-	}
-	.why-niveshay-section .image-grid-wrapper .image-grid-row .image-grid-col.dark-col{
-		order: 1;
-	} */
+
+	
 }

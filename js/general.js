@@ -117,7 +117,6 @@ function tab_link_click() {
 // header main
 function mainPadding() {
   let _headerHeight = jQuery(".niveshaay-header").outerHeight();
-  console.log(_headerHeight);
   jQuery(".wrapper main").css("padding-top", _headerHeight);
 }
 
@@ -142,7 +141,7 @@ jQuery(document).ready(function () {
   tab_link_click();
   styleFunction();
   setTimeout(function () {
-    mainPadding();
+  mainPadding();
   }, 300);
 
   // hamburger
@@ -311,7 +310,6 @@ jQuery(document).ready(function () {
     $(".custom-modal").each(function () {
       var data_tab = $(this).attr("data-tab");
       if (data_tab == data_link) {
-        console.log(data_link);
         $(this).addClass("modal-visible");
         $("body").addClass("open-modal");
       }

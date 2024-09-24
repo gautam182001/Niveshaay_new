@@ -15,7 +15,7 @@
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 1.5rem;
     opacity: 0;
     visibility: hidden;
     transform: translateY(0);
@@ -43,11 +43,11 @@
 }
 
 .custom-modal .modal-content .modal-content-inner {
-    max-width: 550px;
+    max-width: 55rem;
     position: relative;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 15rem;
     margin: 0 auto;
     min-height: 100%;
     z-index: 99;
@@ -56,7 +56,7 @@
 }
 
 .custom-modal.detail-modal .modal-content .modal-content-inner {
-    max-width: 830px;
+    max-width: 83rem;
 }
 
 .custom-modal.modal-visible .modal-content .modal-content-inner {
@@ -69,16 +69,16 @@
 }
 
 .custom-modal.detail-modal .modal-body {
-    max-width: 830px;
+    max-width: 83rem;
 }
 
 .custom-modal .modal-body {
     position: relative;
     box-shadow: 0 0 40px 0 rgb(74 121 18 / 30%);
     background-color: var(--white);
-    padding: 40px;
-    border-radius: 20px;
-    max-width: 600px;
+    padding: 4rem;
+    border-radius: 2rem;
+    max-width: 60rem;
     width: 100%;
 }
 
@@ -90,11 +90,11 @@
 .custom-modal .modal-content .modal-body .modal-close {
     position: absolute;
     content: '';
-    top: 10px;
-    right: 20px;
-    height: 20px;
-    width: 20px;
-    padding: 3px;
+    top: 2rem;
+    right: 2rem;
+    height: 2rem;
+    width: 2rem;
+    padding: 0.3rem;
     margin: 0;
     z-index: 3;
     background: transparent;
@@ -108,7 +108,7 @@
 
 .founder-info-section .founder-info-wrapper {
     display: flex;
-    border-radius: 20px;
+    border-radius: 2rem;
     background-color: var(--white1);
     flex-wrap: wrap;
 }
@@ -117,7 +117,7 @@
     flex: 0 0 37%;
     max-width: 37%;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 1rem;
 
 }
 
@@ -130,7 +130,7 @@
 .founder-info-wrapper .founder-content {
     flex: 0 0 63%;
     max-width: 63%;
-    padding-left: 40px;
+    padding-left: 4rem;
 }
 
 .founder-info-wrapper .founder-content .heading-title {
@@ -138,17 +138,17 @@
 }
 
 .founder-info-wrapper .founder-content .green-text {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     color: var(--dark-green);
     line-height: 2;
 }
 
 .founder-info-wrapper .founder-content p {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: var(--body-text);
     line-height: 1.9;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .founder-info-wrapper .founder-content .social-icons-wrap .fab {
@@ -168,7 +168,7 @@
 }
 
 .founder-info-wrapper .social-icons-wrap {
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }
 
 
@@ -176,9 +176,9 @@
     .founder-info-wrapper .founder-image {
         flex: 0 0 100%;
         max-width: 100%;
-        max-width: 400px;
+        max-width: 40rem;
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
 
     .founder-info-wrapper .founder-content {
@@ -188,6 +188,6 @@
     }
 
     .custom-modal .modal-body {
-        padding: 40px 25px;
+        padding: 4rem 2.5rem;
     }
 }
