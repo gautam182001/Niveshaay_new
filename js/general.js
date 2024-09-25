@@ -141,9 +141,17 @@ jQuery(document).ready(function () {
   tab_link_click();
   styleFunction();
   setTimeout(function () {
-  mainPadding();
+    mainPadding();
   }, 300);
 
+  /* faq answer */
+  $(".answer").hide();
+  $(".question").click(function () {
+    $(this).closest(".faq-wrap").find(".answer").slideToggle();
+    $(this).closest(".faq-wrap").toggleClass("open");
+    $(".answer").not($(this).closest(".faq-wrap").find(".answer")).slideUp();
+    $(".faq-wrap").not($(this).closest(".faq-wrap")).removeClass("open");
+  });
   // hamburger
   jQuery(".hamburger").click(function () {
     jQuery("html, body").toggleClass("open");

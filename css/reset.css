@@ -1,5 +1,32 @@
 /* Reset 
 --------------------------------------------------------------------------------------------------------*/
+:root {
+  --white: #FFF;
+  --plain-black: #000;
+  --primary: #83B645;
+  --body-text: #212121;
+  --heading-text: #1A1A1A;
+  --dark-green: #234930;
+  --black: #0F0F0F;
+  --black1: #191919;
+  --black2: #262626;
+  --white1: #e8e8e8;
+  --blue: #119EF7;
+  --white2: #F3F8EC;
+  --green: #2E523A;
+  --green2: #D0E9CE;
+  --grey: #D9D9D9;
+  --grey2: #333;
+  --grey3: #EAEAEA;
+  --grey4: #F8F8F8;
+  --grey5: #E5E5E5;
+  --grey6: #D7D7D7;
+  --grey7: #656567;
+
+  --black-rgba: rgba(0, 0, 0, 0.25);  
+
+  --primary-family: "Manrope", sans-serif;
+}
 
 html,
 body,
@@ -133,42 +160,25 @@ input {
   opacity: 1;
 }
 
-input::-webkit-input-placeholder {
-  opacity: 1 !important;
-}
-
-input::-moz-placeholder {
-  opacity: 1 !important;
-}
-
-input:-ms-input-placeholder {
-  opacity: 1 !important;
-}
-
-input::-ms-input-placeholder {
-  opacity: 1 !important;
-}
-
-input::placeholder {
-  opacity: 1 !important;
-}
-
-input::-webkit-input-placeholder {
-  opacity: 1 !important;
-}
-
-input::-moz-placeholder {
-  opacity: 1 !important;
-}
-
-input:-ms-input-placeholder {
-  opacity: 1 !important;
-}
-
 textarea {
   overflow: auto;
   vertical-align: top;
   resize: none;
+}
+
+input::placeholder,
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder,
+input::-ms-input-placeholder,
+textarea::placeholder,
+textarea::-webkit-input-placeholder,
+textarea::-moz-placeholder,
+textarea:-ms-input-placeholder,
+textarea::-ms-input-placeholder,
+textarea::-webkit-input-placeholder {
+  opacity: 1 !important;
+  color: var(--grey7); 
 }
 
 a:active,
@@ -189,6 +199,7 @@ select,
 textarea {
   font-size: 100%;
   margin: 0;
+  font-family: var(--primary-family);
 }
 
 button,
@@ -291,86 +302,6 @@ a {
   box-sizing: border-box;
 }
 
-input::-webkit-input-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-input::-moz-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-input:-ms-input-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-input::-ms-input-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-input::placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-input::-webkit-input-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-textarea::-webkit-input-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-textarea::-moz-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-textarea:-ms-input-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-textarea::-ms-input-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-textarea::placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-textarea::-webkit-input-placeholder {
-  font-family: "Manrope", sans-serif;
-  color: #212121;
-  opacity: 0.5 !important;
-}
-
-textarea {
-  overflow: auto;
-  vertical-align: top;
-  resize: none;
-  font-family: "Manrope", sans-serif;
-  color: rgba(33, 33, 33, 0.5);
-}
-
 picture {
   display: block;
 }
@@ -383,25 +314,3 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-:root {
-  --white: #FFF;
-  --plain-black: #000;
-  --primary: #83B645;
-  --body-text: #212121;
-  --heading-text: #1A1A1A;
-  --dark-green: #234930;
-  --black: #0F0F0F;
-  --black1: #191919;
-  --white1: #e8e8e8;
-  --blue: #119EF7;
-  --white2: #F3F8EC;
-  --green: #2E523A;
-  --green2: #D0E9CE;
-  --grey: #D9D9D9;
-  --grey2: #333;
-  --grey3: #EAEAEA;
-  --grey4: #F8F8F8;
-  --grey5: #E5E5E5;
-
-  --primary-family: "Manrope", sans-serif;
-}

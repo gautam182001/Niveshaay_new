@@ -1,0 +1,95 @@
+.hedgehogs-fund-section {
+    padding-bottom: 8rem;
+}
+
+.key-fact-section {
+    padding-bottom: 8rem;
+}
+
+.aif-section {
+    padding-bottom: 8rem;
+}
+
+.hedgehogs-fund-section .strategy-outer-wrap {
+    padding-top: 5rem;
+}
+
+.hedgehogs-fund-section .top-content {
+    max-width: 100rem;
+}
+
+.key-fact-section .table-wrapper thead th {
+    text-align: center;
+}
+
+.key-fact-section .table-wrapper tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.key-fact-section .table-wrapper tbody tr:nth-child(even) {
+    background-color: #F3F8EC;
+}
+
+.aif-section .btn-wrapper {
+    text-align: center;
+    margin-bottom: -1rem;
+}
+
+.aif-section .btn-wrapper .btn:not(:last-child) {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.aif-section .btn-wrapper {
+    margin-top: 2rem;
+}
+
+.key-fact-section .list-wrap li::after {
+    left: 0;
+}
+
+.key-fact-section .list-wrap li {
+    padding-left: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.key-fact-section .list-wrap {
+    max-width: 95rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width:991px) {
+    .hedgehogs-fund-section {
+        padding-bottom: 5rem;
+    }
+
+    .key-fact-section {
+        padding-bottom: 5rem;
+    }
+
+    .aif-section {
+        padding-bottom: 5rem;
+    }
+
+    .hedgehogs-fund-section .strategy-outer-wrap {
+        padding-top: 3.5rem;
+    }
+}
+
+@media (max-width:767px) {
+    .hedgehogs-fund-section {
+        padding-bottom: 4rem;
+    }
+
+    .key-fact-section {
+        padding-bottom: 4rem;
+    }
+
+    .aif-section {
+        padding-bottom: 4rem;
+    }
+
+    .hedgehogs-fund-section .strategy-outer-wrap {
+        padding-top: 2.5rem;
+    }
+}
