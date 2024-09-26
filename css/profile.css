@@ -1,0 +1,158 @@
+.profile-section {
+    margin-bottom: 8rem;
+}
+
+.profile-outer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-outer .profile-img {
+    max-width: 24rem;
+    flex: 0 0 24rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    background: var(--grey);
+    height: 27.8rem;
+}
+
+.profile-outer .profile-img img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.profile-outer .profile-content {
+    max-width: calc(100% - 24rem);
+    flex: 0 0 calc(100% - 24rem);
+    padding-left: 3.1rem;
+}
+
+.profile-outer .edit-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.profile-outer .edit-title .edit-icon {
+    display: block;
+    margin-left: 2rem;
+}
+
+.profile-outer .edit-title .edit-icon:hover svg {
+    fill: var(--plain-black);
+}
+
+.profile-outer .edit-title .edit-icon svg {
+    height: 2.6rem;
+    width: auto;
+    display: block;
+    transition: inherit;
+}
+
+.profile-outer .contact-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.profile-outer .contact-info a {
+    color: var(--body-text);
+}
+
+.profile-outer .contact-info a:hover {
+    color: var(--primary);
+}
+
+.profile-outer .contact-info li+li {
+    position: relative;
+    padding-left: 2.3rem;
+}
+
+.profile-outer .contact-info li+li:before {
+    position: absolute;
+    content: "";
+    height: 1.2rem;
+    width: 0.2rem;
+    background-color: var(--black1);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.1rem;
+}
+
+.profile-outer .table-outer:not(:last-child) {
+    margin-bottom: 4rem;
+}
+.profile-outer .table-outer .section-title {
+    margin-bottom: 1.8rem;
+}
+.profile-outer .niveshhay-table-responsive .table-wrapper table th,
+.profile-outer .niveshhay-table-responsive .table-wrapper table td {
+    font-size: 1.4rem;
+    color: var(--dark-green);
+}
+
+@media (max-width:1024px) {
+    .profile-outer .profile-img {
+        max-width: 18rem;
+        flex: 0 0 18rem;
+        height: 21.8rem;
+    }
+    .profile-outer .profile-content {
+        max-width: calc(100% - 18rem);
+        flex: 0 0 calc(100% - 18rem);
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width:991px) {
+    .profile-section {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-section {
+        margin-bottom: 4rem;
+    }
+    .profile-outer .profile-img {
+        max-width: 12rem;
+        flex: 0 0 12rem;
+        height: 13.8rem;
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .profile-outer .profile-content {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-left: 0;
+    }
+    .profile-outer .contact-info li {
+        width: 100%;
+    }
+    .profile-outer .contact-info li+li {
+        padding-left: 0;
+        margin-top: 0.5re,;
+    }
+    .profile-outer .contact-info li+li:before {
+        display: none;
+    }
+    
+    .profile-outer .edit-title .edit-icon {
+        margin-left: 1.5rem;
+    }
+
+    .profile-outer .edit-title .edit-icon svg {
+        height: 2rem;
+    }
+
+    .profile-outer .contact-info {
+        margin-bottom: 2rem;
+    }
+    .profile-outer .table-outer:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}

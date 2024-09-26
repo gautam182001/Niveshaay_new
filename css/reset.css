@@ -23,7 +23,7 @@
   --grey6: #D7D7D7;
   --grey7: #656567;
 
-  --black-rgba: rgba(0, 0, 0, 0.25);  
+  --black-rgba: rgba(0, 0, 0, 0.25);
 
   --primary-family: "Manrope", sans-serif;
 }
@@ -178,7 +178,16 @@ textarea:-ms-input-placeholder,
 textarea::-ms-input-placeholder,
 textarea::-webkit-input-placeholder {
   opacity: 1 !important;
-  color: var(--grey7); 
+  color: var(--grey7);
+}
+
+input::placeholder {
+  transition: all 0.3s;
+}
+
+input:focus::placeholder {
+  transition: all 0.3s;
+  color: transparent;
 }
 
 a:active,
@@ -313,4 +322,3 @@ html {
 * {
   -webkit-tap-highlight-color: transparent;
 }
-
