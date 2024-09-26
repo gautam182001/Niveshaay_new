@@ -292,6 +292,7 @@
     display: block;
     height: 1.6rem;
     width: auto;
+    transition: inherit;
 }
 
 .auth-wrapper .get-in-touch-wrapper .title-wrapper {
@@ -333,7 +334,7 @@
 
 @media (max-width:991px) {
     .auth-wrapper {
-        margin-bottom: 7rem;
+        margin-bottom: 5rem;
     }
 
     .auth-wrapper .page-title {
@@ -361,7 +362,7 @@
     }
 
     .auth-wrapper {
-        margin-bottom: 5rem;
+        margin-bottom: 4rem;
     }
 
     .auth-wrapper .page-title {
@@ -382,7 +383,7 @@
 
     .auth-wrapper .form-wrapper {
         border-radius: 2rem;
-        padding: 2rem;
+        padding: 1.5rem;
     }
 
     .auth-wrapper .contact-inner .form-wrapper {
