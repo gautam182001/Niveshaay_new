@@ -212,6 +212,16 @@
     padding: 2.4rem;
 }
 
+.auth-wrapper .form-wrapper .img-wrap {
+    margin-bottom: 2.6rem;
+}
+
+.auth-wrapper .form-wrapper .img-wrap img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
 .auth-wrapper .bottom-link {
     margin-top: 2rem;
     font-size: 1.4rem;
