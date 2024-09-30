@@ -31,9 +31,11 @@
 .site-footer .footer-link ul li em {
     width: 3rem;
 }
-.site-footer .footer-link ul li em  img{
-    margin-top:0.3rem;
+
+.site-footer .footer-link ul li em img {
+    margin-top: 0.3rem;
 }
+
 .site-footer .footer-link ul li em.map {
     position: relative;
 }
@@ -114,7 +116,7 @@ footer .video iframe {
 }
 
 footer .footer-top p {
-    padding: 2.5rem 4.7rem 2.3rem 0;
+    padding: 2.5rem 4.9rem 2.3rem 0;
 }
 
 footer .footer-top .footer-link-title {

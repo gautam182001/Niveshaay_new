@@ -241,7 +241,7 @@ main {
 }
 
 .faq-wrap .question img {
-    margin-right: 0.7rem;
+    margin-right: 1.5rem;
 }
 
 .faq-wrap:not(:last-child) {
@@ -263,7 +263,7 @@ main {
     top: 1rem;
     content: "";
     transition: all 0.5s;
-    right: 2rem;
+    /* right: 2rem; */
 }
 
 .faq-wrap .question.page-link::after {
@@ -274,7 +274,7 @@ main {
 }
 
 .faq-wrap .question.page-link:hover::after {
-    transform: translatey(-5px) translateX(5px);
+    transform: translatey(-3px) translateX(3px);
     transition: all 0.5s;
 }
 
@@ -301,7 +301,7 @@ main {
 }
 
 .faq-wrap .answer .investment-content-list li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .faq-wrap .answer .investment-content-list li:hover img {
@@ -312,6 +312,7 @@ main {
 .faq-wrap.open .question::after {
     transform: rotate(180deg);
 }
+
 
 @media(max-width:1366px) {
     h1 {
