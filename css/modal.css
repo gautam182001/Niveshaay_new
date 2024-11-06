@@ -43,7 +43,7 @@
 }
 
 .custom-modal .modal-content .modal-content-inner {
-    max-width: 55rem;
+    max-width: 70rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -78,7 +78,6 @@
     background-color: var(--white);
     padding: 4rem;
     border-radius: 2rem;
-    max-width: 60rem;
     width: 100%;
 }
 

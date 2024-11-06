@@ -165,10 +165,6 @@ footer .footer-top .footer-link-title {
     margin-right: 0;
 }
 
-/* iframe{
-    width: 100%;
-} */
-
 @media screen and (max-width: 1199px) {
     .site-footer .footer-link ul li a.last {
         margin-left: 3rem;

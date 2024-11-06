@@ -27,7 +27,6 @@
 .niveshay-banner-section .image-content-wrapper {
 	display: flex;
 	flex-wrap: wrap;
-	/* max-width: 144rem; */
 	margin: 0 auto;
 }
 
@@ -826,7 +825,6 @@
 	background-color: var(--white2);
 }
 
-/*  */
 .logo-slider-section {
 	padding: 5rem 0;
 	background-color: var(--grey4);
@@ -1080,14 +1078,6 @@
 		padding: 6rem 0 7rem;
 	}
 
-	/* .client-review-section .review-block-outer {
-		margin: 0 -1rem -2rem;
-	} */
-
-	/* .client-review-section .review-block-outer .review-block {
-		padding: 0 1rem 2rem;
-	} */
-
 	.client-review-section .review-block-outer .review-block-inner {
 		padding: 2rem 2rem 2rem 5rem;
 	}
@@ -1187,10 +1177,6 @@
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
-
-	/* .niveshay-banner-section .feature-swiper-wrapper{
-		max-width: 100%;
-	} */
 	.niveshay-banner-section .feature-swiper-wrapper .swiper-wrapper .image-block {
 		text-align: left;
 	}
@@ -1255,18 +1241,6 @@
 	.client-review-section {
 		padding: 4rem 0 6rem;
 	}
-
-
-
-	/* .client-review-section .review-block-outer {
-		margin: 0 0 -2rem;
-	} */
-
-	/* .client-review-section .review-block-outer .review-block {
-		padding: 0 0 2rem;
-		flex: 0 0 100%;
-		max-width: 100%;
-	} */
 
 	.client-review-section .review-block-outer .quote-block blockquote {
 		height: inherit !important;

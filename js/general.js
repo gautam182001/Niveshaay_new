@@ -312,7 +312,52 @@ jQuery(document).ready(function () {
       $("#past-recommendation").DataTable().search(this.value).draw();
     });
   }
+
+  if ($("#allocation-recommendation").length > 0) {
+    new DataTable("#allocation-recommendation", {
+      scrollX: true,
+      pagingType: "full_numbers",
+      info: false,
+    });
+    $("#allocation-recommendations").on("keyup", function () {
+      $("#allocation-recommendation").DataTable().search(this.value).draw();
+    });
+  }
+  if ($("#recent-update").length > 0) {
+    new DataTable("#recent-update", {
+      scrollX: true,
+      pagingType: "full_numbers",
+      info: false,
+    });
+    $("#recent-updates").on("keyup", function () {
+      $("#recent-update").DataTable().search(this.value).draw();
+    });
+  }
+  if ($("#current-recommendation").length > 0) {
+    new DataTable("#current-recommendation", {
+      scrollX: true,
+      pagingType: "full_numbers",
+      info: false,
+    });
+    $("#current-recommendations").on("keyup", function () {
+      $("#current-recommendation").DataTable().search(this.value).draw();
+    });
+  }
   $(".dataTables_length").prepend("<span>Show</span>");
+
+  /* for comunity anser */
+
+  $(".more-answer").hide();
+  $(".ans-count").click(function () {
+    $(this).closest(".community-wrap").find(".more-answer").slideToggle();
+    $(this).closest(".community-wrap").toggleClass("open");
+    $(".more-answer")
+      .not($(this).closest(".community-wrap").find(".more-answer"))
+      .slideUp();
+    $(".community-wrap")
+      .not($(this).closest(".community-wrap"))
+      .removeClass("open");
+  });
 
   jQuery(".complaints-section .tab-heading-wrapper span").click(function () {
     jQuery(this).closest(".tab-heading-wrapper").toggleClass("open");

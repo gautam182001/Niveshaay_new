@@ -67,7 +67,7 @@ h3 {
     height: 4.7rem;
     line-height: 4.7rem;
     border-radius: 0.6rem;
-    background-color: var(--white);
+    background-color: transparent;
     color: var(--primary);
     font-weight: 600;
     font-size: 1.6rem;

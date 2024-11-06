@@ -1,0 +1,150 @@
+.update-section {
+    padding-bottom: 8rem;
+}
+
+.update-section .update-content-wrap {
+    padding: 3rem;
+    border: 1px solid #D7D7D7;
+    border-radius: 1rem;
+    display: flex;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.update-section .update-content-wrap .img-wrap {
+    flex: 0 0 25%;
+    max-width: 25%;
+
+}
+
+.update-section .update-content-wrap .img-wrap img {
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.update-section .update-content-wrap .content-wrap {
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 3rem;
+}
+
+.update-section .update-content-wrap.one-block .content-wrap {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0;
+}
+
+.update-section .update-content-wrap .title {
+    margin-bottom: 2.5rem;
+}
+
+.update-section .update-content-wrap .title p {
+    margin-bottom: 1.3rem;
+    font-size: 1.4rem;
+}
+
+.update-section .update-content-wrap p {
+    margin-bottom: 1.3rem;
+}
+
+.update-section .update-content-wrap p:last-child {
+    margin-bottom: 0;
+}
+
+.investor-details-section {
+    padding-bottom: 8rem;
+}
+
+.investor-details-section .investor-details-wrap {
+    padding: 3rem;
+    border: 1px solid #D7D7D7;
+    border-radius: 1rem;
+}
+
+.investor-details-section .investor-details-wrap p {
+    margin-bottom: 1.3rem;
+    font-size: 1.6rem;
+}
+
+.investor-details-section .auth-box .img-wrap {
+    padding: 2rem;
+    display: inline-block;
+    border: 1px solid #EAEAEA;
+    border-radius: 2rem;
+}
+
+.investor-details-section .investor-details-wrap .auth-box p {
+    margin-bottom: 1.5rem;
+}
+
+.investor-details-section .investor-details-wrap .auth-box .img-wrap {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.investor-details-section .investor-details-wrap .auth-box .img-wrap p {
+    max-width: 13.5rem;
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.investor-details-section .investor-details-wrap .auth-box .img-wrap span {
+    margin-right: 1.5rem;
+    max-width: 5rem;
+    display: table;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+@media (max-width:991px) {
+    .update-section {
+        padding-bottom: 5rem;
+    }
+
+    .investor-details-section {
+        padding-bottom: 5rem;
+    }
+
+    .update-section .update-content-wrap {
+        padding: 1.5rem;
+    }
+
+    .update-section .update-content-wrap .title {
+        margin-bottom: 1.5rem;
+    }
+
+    .update-section .update-content-wrap p {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:767px) {
+    .update-section {
+        padding-bottom: 3rem;
+    }
+
+    .investor-details-section {
+        padding-bottom: 4rem;
+    }
+
+    .investor-details-section .investor-details-wrap {
+        padding: 1.5rem;
+    }
+
+    .update-section .update-content-wrap .content-wrap {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .update-section .update-content-wrap .img-wrap {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+        margin-bottom: 1.5rem;
+        order: -1;
+    }
+}

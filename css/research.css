@@ -24,25 +24,12 @@
     border-radius: 4px;
     transition: all 0.5s;
     display: block;
-    /* box-shadow: 2px 2px 10px 1px rgba(210, 210, 210, 0.3); */
-
-
-
 }
 
 .recommendtion-list .item-content-wrap {
     background-color: var(--white);
     border-radius: 1rem;
 }
-
-/* 
-.recommendtion-list .item-content-wrap:hover {
-    background-color: var(--green);
-} */
-
-/* .recommendtion-list .item-content-wrap:hover svg path {
-    transition: all 0.5s;
-} */
 
 .recommendtion-list .item-content-wrap .img-wrap {
     display: flex;
@@ -57,8 +44,6 @@
 
 .recommendtion-list .item-content-wrap .img-wrap .notification {
     position: relative;
-    /* margin-top: -6px;
-    margin-right: -10px; */
     display: flex;
 }
 
@@ -128,20 +113,6 @@
     transition: all 0.5s;
 }
 
-/* .recommendtion-list .item-content-wrap:hover svg path {
-    fill: var(--white);
-} */
-
-/* .recommendtion-list .item.stroke .item-content-wrap:hover svg path {
-    fill: none;
-    stroke: var(--white);
-} */
-
-/* .recommendtion-list .item.stroke .item-content-wrap:hover i svg path {
-    fill: var(--white);
-    stroke: none;
-} */
-
 .recommendtion-list .item-content-wrap .content-wrap i {
     transition: all 0.5s;
     text-align: end;
@@ -152,25 +123,18 @@
     width: 22px;
 }
 
-/* .recommendtion-list .item-content-wrap:hover .content-wrap i {
-    transform: translateX(5px);
-} */
 
 .recommendtion-list .item-content-wrap .img-wrap {
     margin-bottom: 22px;
 }
 
 .recommendtion-list .content-wrap {
-    /* display: flex; */
-    /* align-items: flex-end; */
-    /* justify-content: space-between; */
     color: var(--white);
 }
 
 .recommendtion-list .content-wrap a {
     color: #83B645;
     line-height: 1.8;
-    /* border-bottom: 1px solid #83B645; */
     font-size: 1.4rem;
     transition: all 01s;
     position: relative;
@@ -200,11 +164,8 @@
 
 .recommendtion-list .item-content-wrap .content-wrap p {
     color: #212121;
+    max-width: 175px;
 }
-
-/* .recommendtion-list .item-content-wrap:hover .content-wrap p {
-    color: var(--white);
-} */
 
 .recommendtion-list .content-wrap p {
     font-size: 1.8rem;
