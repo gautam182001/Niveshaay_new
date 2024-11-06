@@ -22,6 +22,7 @@
 .community-outer-wrap .community-wrap .top-content {
     align-items: self-start;
     display: flex;
+    padding-bottom: 1.2rem;
 }
 
 .community-outer-wrap .community-wrap .ans-count {
@@ -68,26 +69,18 @@
 }
 
 .community-outer-wrap .community-wrap .content-wrap {
-    flex: 0 0 calc(100% - 75px);
-    max-width: calc(100% - 75px);
+    flex: 0 0 calc(100% - 71px);
+    max-width: calc(100% - 71px);
 }
-
-.community-outer-wrap .community-wrap .content-wrap .answers {
-    padding-bottom: 1.4rem;
-}
-
 .community-outer-wrap .community-wrap.open .content-wrap .answers {
-    border-bottom: 1px solid #D7D7D7;
+    /* border-bottom: 1px solid #D7D7D7; */
     font-size: 1.6rem;
 }
 
 .community-outer-wrap .community-wrap .content-wrap .more-answer .answers {
-    border-bottom: 1px solid #D7D7D7;
+    /* border-bottom: 1px solid #D7D7D7; */
     padding: 1.5rem 0;
-}
-
-.community-outer-wrap .community-wrap .content-wrap .more-answer {
-    margin-bottom: 1rem;
+    padding-bottom: 0;
 }
 
 .community-outer-wrap .community-wrap .content-wrap .answers:last-child {

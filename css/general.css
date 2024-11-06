@@ -40,7 +40,9 @@ h3 {
     line-height: 1.36;
     margin-bottom: 2rem;
 }
-
+h5{
+    font-size: 1.8rem;
+}
 .primary-btn {
     display: inline-block;
     height: 4.7rem;
@@ -166,8 +168,11 @@ main {
 .section-title {
     margin-bottom: 1.4rem;
 }
+.section-title-big {
+    margin-bottom: 1.4rem;
+}
 
-.section-title.center-text {
+.section-title-big.center-text {
     text-align: center;
 }
 
