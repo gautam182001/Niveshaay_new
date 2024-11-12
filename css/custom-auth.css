@@ -147,11 +147,10 @@
 }
 
 .auth-wrapper .container {
-    max-width: 114rem;
+    max-width: 120rem;
 }
 
 .auth-wrapper .auth-inner {
-    box-shadow: 0 0.4rem 0.4rem 0 var(--black-rgba);
     background: var(--white2);
     border-radius: 2rem;
     display: flex;
@@ -159,12 +158,13 @@
 }
 
 .auth-wrapper .auth-image {
-    flex: 0 0 34rem;
-    max-width: 34rem;
+    flex: 0 0 40rem;
+    max-width: 40rem;
     padding: 3rem;
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding-right: 2.5rem;
 }
 
 .auth-wrapper .logo-wrapper {
@@ -209,7 +209,7 @@
     background: var(--white);
     height: 100%;
     border-radius: 0 2rem 2rem 0;
-    padding: 2.4rem;
+    padding: 3.8rem 2.4rem;
 }
 
 .auth-wrapper .form-wrapper .img-wrap {
@@ -239,32 +239,50 @@
 }
 
 .auth-wrapper .get-in-touch-wrapper {
-    max-width: 24rem;
+    /* max-width: 24rem; */
     width: 100%;
-    margin: 1.6rem auto;
+    padding: 3rem 0;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.2rem;
     color: var(--body-text);
+    border-bottom: 1px solid #EAEFE3;
+}
+
+.auth-wrapper .get-in-touch-wrapper:nth-child(2) {
+    border-bottom: 0;
+}
+
+.auth-wrapper .get-in-touch-wrapper:nth-child(1) {
+    padding-top: 0;
 }
 
 .auth-wrapper .get-in-touch-wrapper>li {
     display: flex;
-    flex-direction: column;
+    line-height: 1.4;
 }
 
 .auth-wrapper .get-in-touch-wrapper .icon-wrap {
     display: block;
-    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
     line-height: 0;
+    flex: 0 0 20px;
+    margin-top: 5px;
+}
+
+.auth-wrapper .get-in-touch-wrapper .tel-wrap {
+    display: flex;
+    flex-direction: column;
 }
 
 .auth-wrapper .get-in-touch-wrapper>li:not(:last-child) {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .auth-wrapper .get-in-touch-wrapper a {
     color: var(--body-text);
+    word-break: break-word;
+    text-align: start;
 }
 
 .auth-wrapper .get-in-touch-wrapper a:hover {
@@ -282,23 +300,42 @@
 
 .auth-wrapper .get-in-touch-wrapper address a {
     line-height: inherit;
+    text-align: start;
+    max-width: 240px;
 }
 
-.auth-wrapper .get-in-touch-wrapper .social-icon-wrapper {
+.auth-wrapper .social-icon-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.auth-wrapper .get-in-touch-wrapper .social-icon-wrapper a {
+.auth-wrapper .social-icon-wrapper a {
     display: block;
+
 }
 
-.auth-wrapper .get-in-touch-wrapper .social-icon-wrapper a:hover svg {
-    fill: var(--primary);
+.auth-wrapper .social-icon-wrapper li a {
+    background-color: #E7F2D7;
+    width: 48px;
+    height: 48px;
+    border-radius: 5.0rem;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.auth-wrapper .get-in-touch-wrapper .social-icon-wrapper svg {
+.auth-wrapper .social-icon-wrapper li a:hover {
+    background-color: var(--dark-green);
+}
+
+.auth-wrapper .social-icon-wrapper a:hover svg {
+    fill: var(--white);
+}
+
+.auth-wrapper .social-icon-wrapper svg {
     display: block;
     height: 1.6rem;
     width: auto;
@@ -352,8 +389,13 @@
     }
 
     .auth-wrapper .auth-image {
-        flex: 0 0 26rem;
-        max-width: 26rem;
+        flex: 0 0 32rem;
+        max-width: 32rem;
+    }
+
+    .auth-wrapper .social-icon-wrapper li a {
+        width: 38px;
+        height: 38px;
     }
 }
 

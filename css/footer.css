@@ -19,17 +19,33 @@
 
 }
 
+.site-footer .footer-link .contact-info-wrap .contact-details {
+    background-color: #1D432A;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.site-footer .footer-link .contact-info-wrap .contact-details:last-child {
+    margin-bottom: 0;
+}
+
 .site-footer .footer-link ul li {
     font-size: 1.4rem;
     color: var(--white);
     display: flex;
     position: relative;
     margin-bottom: 0.4rem;
+}
+
+.site-footer .footer-link ul .tel-wrap {
     flex-wrap: wrap;
 }
 
 .site-footer .footer-link ul li em {
     width: 3rem;
+    flex: 0 0 3rem;
 }
 
 .site-footer .footer-link ul li em img {
@@ -54,6 +70,7 @@
     color: var(--white);
     line-height: 2.6rem;
     text-decoration: none;
+    word-break: break-word;
 }
 
 .site-footer .footer-link ul li a:hover {
@@ -91,16 +108,39 @@
 }
 
 .footer-col {
-    width: 32.66%;
+    width: 27.56%;
     padding: 0 1.5rem;
 }
 
+.footer-col .footer-info .pdf-wrp {
+    margin-bottom: -10px;
+    margin-right: -10px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-col .footer-info .pdf-wrp a {
+    background-color: var(--white);
+    color: var(--dark-green);
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.footer-col .footer-info .pdf-wrp a em {
+    margin-right: 10px;
+}
+
 .footer-col:nth-child(2) {
-    width: 13.66%;
+    width: 14.86%;
 }
 
 .footer-col:nth-child(3) {
-    width: 28.2%;
+    width: 32%;
 }
 
 .footer-col:last-child {
@@ -116,7 +156,7 @@ footer .video iframe {
 }
 
 footer .footer-top p {
-    padding: 2.5rem 4.9rem 2.3rem 0;
+    padding: 2.5rem 2.5rem 2.8rem 0;
 }
 
 footer .footer-top .footer-link-title {
