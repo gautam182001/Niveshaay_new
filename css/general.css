@@ -236,6 +236,7 @@ main {
 
 .faq-wrap .question {
     padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     font-size: 1.8rem;
     position: relative;
     cursor: pointer;
@@ -250,7 +251,7 @@ main {
 }
 
 .faq-wrap:not(:last-child) {
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
 }
 
 .faq-wrap a {
@@ -434,11 +435,12 @@ main {
 
     .faq-wrap .question {
         padding-bottom: 1rem;
+        padding-top: 1rem;
         font-size: 1.6rem
     }
 
     .faq-wrap:not(:last-child) {
-        margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
     }
 
     .faq-wrap.open .answer {

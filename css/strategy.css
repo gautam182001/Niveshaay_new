@@ -210,9 +210,34 @@
     .strategy-outer-wrap .strategy-wrap .strategy-inner-wrap .img-wrap {
         margin-bottom: 1.5rem;
     }
-}
+    .strategy-outer-wrap .strategy-wrap {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 
-@media (max-width:640px) {
+    .strategy-outer-wrap .strategy-wrap:nth-child(1) .strategy-inner-wrap {
+        background-color: #F3F8EC;
+    }
+
+    .strategy-outer-wrap .strategy-wrap:nth-child(2) .strategy-inner-wrap {
+        background-color: #ffffff;
+    }
+
+    .strategy-outer-wrap .strategy-wrap:nth-child(3) .strategy-inner-wrap {
+        background-color: #F3F8EC;
+    }
+
+    .strategy-outer-wrap .strategy-wrap:nth-child(4) .strategy-inner-wrap {
+        background-color: #ffffff;
+    }
+
+    .strategy-outer-wrap .strategy-wrap:nth-child(5) .strategy-inner-wrap {
+        background-color: #F3F8EC;
+    }
+
+    .strategy-outer-wrap .strategy-wrap:nth-child(6) .strategy-inner-wrap {
+        background-color: #ffffff;
+    }
 
     .strategy-outer-wrap.four-col .strategy-wrap {
         flex: 0 0 50%;
@@ -250,38 +275,12 @@
     .strategy-outer-wrap.four-col .strategy-wrap:nth-child(8) .strategy-inner-wrap {
         background-color: #F3F8EC;
     }
+
 }
 
-@media (max-width:480px) {
-    .strategy-outer-wrap .strategy-wrap {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+@media (max-width:640px) {
 
-    .strategy-outer-wrap .strategy-wrap:nth-child(1) .strategy-inner-wrap {
-        background-color: #F3F8EC;
-    }
-
-    .strategy-outer-wrap .strategy-wrap:nth-child(2) .strategy-inner-wrap {
-        background-color: #ffffff;
-    }
-
-    .strategy-outer-wrap .strategy-wrap:nth-child(3) .strategy-inner-wrap {
-        background-color: #F3F8EC;
-    }
-
-    .strategy-outer-wrap .strategy-wrap:nth-child(4) .strategy-inner-wrap {
-        background-color: #ffffff;
-    }
-
-    .strategy-outer-wrap .strategy-wrap:nth-child(5) .strategy-inner-wrap {
-        background-color: #F3F8EC;
-    }
-
-    .strategy-outer-wrap .strategy-wrap:nth-child(6) .strategy-inner-wrap {
-        background-color: #ffffff;
-    }
-
+   
     .strategy-outer-wrap.four-col .strategy-wrap {
         flex: 0 0 100%;
         max-width: 100%;
@@ -318,4 +317,10 @@
     .strategy-outer-wrap.four-col .strategy-wrap:nth-child(8) .strategy-inner-wrap {
         background-color: #ffffff;
     }
+}
+
+@media (max-width:480px) {
+   
+
+   
 }
